@@ -87,12 +87,15 @@ Follow the prompts in the browser to input travel preferences and generate a com
 ### Step 5: Optional — Using Visual Studio Code
 
 Open Visual Studio Code
+
 Open the project folder
+
 Open Terminal from View > Terminal
+
 Select the Python Interpreter inside .venv
 
 ### Screenshots
-Add screenshots of your program in the assets/ folder. Example:
+Add screenshots of your program in the assets/ folder
 
 ### Troubleshooting
 
