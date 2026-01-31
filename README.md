@@ -45,9 +45,9 @@ travel-plan-ai/
 
 ---
 
-## Setup Instructions (macOS & Windows)
+# Setup Instructions (macOS & Windows)
 
-### Step 1: Create Virtual Environment
+## Step 1: Create Virtual Environment
 
 **macOS / Linux:**
     
@@ -64,12 +64,12 @@ travel-plan-ai/
     python -m pip install --upgrade pip
     
 
-### Step 2: Install Dependencies
+## Step 2: Install Dependencies
 
     python -m pip install -r requirements.txt
     
 
-### Step 3: Configure OpenAI API Key
+## Step 3: Configure OpenAI API Key
 
 Create a .env file in the project root:
 
@@ -79,7 +79,7 @@ Create a .env file in the project root:
 ⚠️ Never commit your real API key to GitHub. Use a placeholder in the repository.
 
 
-### Step 4: Run the Application
+## Step 4: Run the Application
 
     streamlit run travel_plan.py
     
@@ -87,7 +87,7 @@ Create a .env file in the project root:
 Follow the prompts in the browser to input travel preferences and generate a complete itinerary.
 
 
-### Step 5: Optional — Using Visual Studio Code
+## Step 5: Optional — Using Visual Studio Code
 
 Open Visual Studio Code
 
@@ -97,12 +97,13 @@ Open Terminal from View > Terminal
 
 Select the Python Interpreter inside .venv
 
+---
 
 # Screenshots
     
 Add screenshots of your program in the assets/ folder
 
-
+---
 # Troubleshooting
 
 Ensure Streamlit is installed in the virtual environment
