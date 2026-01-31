@@ -50,56 +50,69 @@ travel-plan-ai/
 ### Step 1: Create Virtual Environment
 
 **macOS / Linux:**
-```
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-```
+
+    ```
+    python3 -m venv .venv
+    source .venv/bin/activate
+    python -m pip install --upgrade pip
+    ```
 
 **Windows (PowerShell):**
-```
-py -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-```
+
+    ```
+    py -m venv .venv
+    .\.venv\Scripts\Activate.ps1
+    python -m pip install --upgrade pip
+    ```
 
 ### Step 2: Install Dependencies
-```
-python -m pip install -r requirements.txt
-```
+
+    ```
+    python -m pip install -r requirements.txt
+    ```
 
 ### Step 3: Configure OpenAI API Key
-Create a .env file in the project root:
 
-```
-OPENAI_API_KEY=sk-your-key-here
-```
+    Create a .env file in the project root:
+
+    ```
+    OPENAI_API_KEY=sk-your-key-here
+    ```
 
 ⚠️ Never commit your real API key to GitHub. Use a placeholder in the repository.
 
+
 ### Step 4: Run the Application
-```
-streamlit run travel_plan.py
-```
+
+    ```
+    streamlit run travel_plan.py
+    ```
 
 Follow the prompts in the browser to input travel preferences and generate a complete itinerary.
 
+
 ### Step 5: Optional — Using Visual Studio Code
 
-Open Visual Studio Code
+    Open Visual Studio Code
 
-Open the project folder
+    Open the project folder
 
-Open Terminal from View > Terminal
+    Open Terminal from View > Terminal
 
-Select the Python Interpreter inside .venv
+    Select the Python Interpreter inside .venv
+
 
 ### Screenshots
-Add screenshots of your program in the assets/ folder
+    
+    Add screenshots of your program in the assets/ folder
+
 
 ### Troubleshooting
 
-Ensure Streamlit is installed in the virtual environment
-Ensure .env file exists and contains your API key
-Run commands in the terminal, not Python REPL
-If Streamlit doesn’t launch, ensure your virtual environment is activated
+    Ensure Streamlit is installed in the virtual environment
+
+    Ensure .env file exists and contains your API key
+
+    Run commands in the terminal, not Python REPL
+
+    If Streamlit doesn’t launch, ensure your virtual environment is activated
