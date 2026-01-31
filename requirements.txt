@@ -3,3 +3,5 @@ pandas
 numpy
 requests
 reportlab
+openai
+python-dotenv
