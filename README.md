@@ -50,43 +50,41 @@ travel-plan-ai/
 ### Step 1: Create Virtual Environment
 
 **macOS / Linux:**
-
-    ```
+    
     python3 -m venv .venv
     source .venv/bin/activate
     python -m pip install --upgrade pip
-    ```
+    
 
 **Windows (PowerShell):**
 
-    ```
+    
     py -m venv .venv
     .\.venv\Scripts\Activate.ps1
     python -m pip install --upgrade pip
-    ```
+    
 
 ### Step 2: Install Dependencies
 
-    ```
+    
     python -m pip install -r requirements.txt
-    ```
+    
 
 ### Step 3: Configure OpenAI API Key
 
     Create a .env file in the project root:
 
-    ```
+    
     OPENAI_API_KEY=sk-your-key-here
-    ```
+    
 
 ⚠️ Never commit your real API key to GitHub. Use a placeholder in the repository.
 
 
 ### Step 4: Run the Application
 
-    ```
     streamlit run travel_plan.py
-    ```
+    
 
 Follow the prompts in the browser to input travel preferences and generate a complete itinerary.
 
