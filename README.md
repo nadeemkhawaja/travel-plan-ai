@@ -50,15 +50,18 @@ travel-plan-ai/
 ### Step 1: Create Virtual Environment
 
 **macOS / Linux:**
+```
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
+```
 
 **Windows (PowerShell):**
+```
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
-
+```
 
 ### Step 2: Install Dependencies
 
