@@ -50,12 +50,11 @@ travel-plan-ai/
 ### Step 1: Create Virtual Environment
 
 **macOS / Linux:**
-```bash
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 
-##Windows (PowerShell):
+**Windows (PowerShell):**
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
@@ -84,10 +83,10 @@ Open the project folder
 Open Terminal from View > Terminal
 Select the Python Interpreter inside .venv
 
-##Screenshots
+### Screenshots
 Add screenshots of your program in the assets/ folder. Example:
 
-##Troubleshooting
+### Troubleshooting
 
 Ensure Streamlit is installed in the virtual environment
 Ensure .env file exists and contains your API key
