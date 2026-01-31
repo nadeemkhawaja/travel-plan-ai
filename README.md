@@ -98,14 +98,12 @@ Open Terminal from View > Terminal
 Select the Python Interpreter inside .venv
 
 
-#
-### * Screenshots*
+# Screenshots
     
 Add screenshots of your program in the assets/ folder
 
-#
 
-### * Troubleshooting *
+# Troubleshooting
 
 Ensure Streamlit is installed in the virtual environment
 
