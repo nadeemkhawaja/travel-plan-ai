@@ -41,7 +41,7 @@ travel-plan-ai/
 ├── data/               # Optional CSV/JSON for destinations
 └── .venv/              # Virtual environment
 
-
+```
 
 ---
 
