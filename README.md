@@ -103,7 +103,7 @@ Select the Python Interpreter inside .venv
     
 Add screenshots of your program in the assets/ folder
 
-
+#
 
 ### * Troubleshooting *
 
