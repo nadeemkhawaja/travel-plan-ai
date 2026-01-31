@@ -1,20 +1,92 @@
 # Travel Plan AI
 
-![Python](https://img.shields.io/badge/Python-3.11-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Python](https://img.shields.io/badge/Python-3.10+-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Overview
-Travel Plan AI is a Python program that generates personalized travel itineraries. Users provide their destination, preferences, and duration of stay, and the AI produces a day-by-day travel plan including sightseeing, dining, and activity recommendations.
+Travel Plan AI is a Streamlit-based travel itinerary generator powered by Python and OpenAI.  
+Users provide their destination, travel dates, and preferences, and the AI generates a structured day-by-day travel plan.  
+Optional PDF export is available for sharing or printing itineraries.  
 
-This project demonstrates practical use of AI in travel planning and can serve as a portfolio-ready Python project.
+This project demonstrates practical AI integration in Python and serves as a professional, portfolio-ready project.
+
+---
 
 ## Features
-- Personalized AI-powered travel itineraries
-- Multiple destinations and flexible durations
-- Option to export itineraries as PDF
-- User-friendly CLI or Streamlit interface
+- Personalized AI-generated travel itineraries
+- Supports multiple destinations and flexible durations
+- Optional PDF export of itineraries
+- Streamlit-based user interface for easy interaction
+- Clean, professional project structure
 
-## Installation
-1. Clone the repository:
+---
+
+## Prerequisites
+- Python 3.10+  
+- Visual Studio Code (optional, recommended)  
+- OpenAI API Key (provided offline)  
+- Internet access
+
+---
+
+## Project Structure
+travel-plan-ai/
+├── travel_plan.py # Main Python program
+├── requirements.txt # Dependencies
+├── .env # Environment variables (API key)
+├── README.md # Project documentation
+├── LICENSE # MIT License
+├── assets/ # Screenshots and sample PDFs
+├── data/ # Optional CSV/JSON for destinations
+└── .venv/ # Virtual environment
+
+
+---
+
+## Setup Instructions (macOS & Windows)
+
+### Step 1: Create Virtual Environment
+
+**macOS / Linux:**
 ```bash
-git clone https://github.com/yourusername/travel-plan-ai.git
-cd travel-plan-ai
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+
+##Windows (PowerShell):
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+
+
+### Step 2: Install Dependencies
+
+python -m pip install -r requirements.txt
+
+### Step 3: Configure OpenAI API Key
+Create a .env file in the project root:
+
+OPENAI_API_KEY=sk-your-key-here
+
+⚠️ Never commit your real API key to GitHub. Use a placeholder in the repository.
+
+### Step 4: Run the Application
+streamlit run travel_plan.py
+
+Follow the prompts in the browser to input travel preferences and generate a complete itinerary.
+
+### Step 5: Optional — Using Visual Studio Code
+
+Open Visual Studio Code
+Open the project folder
+Open Terminal from View > Terminal
+Select the Python Interpreter inside .venv
+
+##Screenshots
+Add screenshots of your program in the assets/ folder. Example:
+
+##Troubleshooting
+
+Ensure Streamlit is installed in the virtual environment
+Ensure .env file exists and contains your API key
+Run commands in the terminal, not Python REPL
+If Streamlit doesn’t launch, ensure your virtual environment is activated
