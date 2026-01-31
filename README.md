@@ -29,15 +29,18 @@ This project demonstrates practical AI integration in Python and serves as a pro
 ---
 
 ## Project Structure
+
+```text
 travel-plan-ai/
-├── travel_plan.py # Main Python program
-├── requirements.txt # Dependencies
-├── .env # Environment variables (API key)
-├── README.md # Project documentation
-├── LICENSE # MIT License
-├── assets/ # Screenshots and sample PDFs
-├── data/ # Optional CSV/JSON for destinations
-└── .venv/ # Virtual environment
+├── travel_plan.py       # Main Python program
+├── requirements.txt    # Dependencies
+├── .env                # Environment variables (API key)
+├── README.md           # Project documentation
+├── LICENSE             # MIT License
+├── assets/             # Screenshots and sample PDFs
+├── data/               # Optional CSV/JSON for destinations
+└── .venv/              # Virtual environment
+
 
 
 ---
