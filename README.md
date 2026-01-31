@@ -98,7 +98,7 @@ Open Terminal from View > Terminal
 Select the Python Interpreter inside .venv
 
 
-
+#
 ### * Screenshots*
     
 Add screenshots of your program in the assets/ folder
