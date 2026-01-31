@@ -66,15 +66,13 @@ travel-plan-ai/
 
 ### Step 2: Install Dependencies
 
-    
     python -m pip install -r requirements.txt
     
 
 ### Step 3: Configure OpenAI API Key
 
-    Create a .env file in the project root:
+Create a .env file in the project root:
 
-    
     OPENAI_API_KEY=sk-your-key-here
     
 
@@ -91,26 +89,26 @@ Follow the prompts in the browser to input travel preferences and generate a com
 
 ### Step 5: Optional — Using Visual Studio Code
 
-    Open Visual Studio Code
+Open Visual Studio Code
 
-    Open the project folder
+Open the project folder
 
-    Open Terminal from View > Terminal
+Open Terminal from View > Terminal
 
-    Select the Python Interpreter inside .venv
+Select the Python Interpreter inside .venv
 
 
 ### Screenshots
     
-    Add screenshots of your program in the assets/ folder
+Add screenshots of your program in the assets/ folder
 
 
 ### Troubleshooting
 
-    Ensure Streamlit is installed in the virtual environment
+Ensure Streamlit is installed in the virtual environment
 
-    Ensure .env file exists and contains your API key
+Ensure .env file exists and contains your API key
 
-    Run commands in the terminal, not Python REPL
+Run commands in the terminal, not Python REPL
 
-    If Streamlit doesn’t launch, ensure your virtual environment is activated
+If Streamlit doesn’t launch, ensure your virtual environment is activated
